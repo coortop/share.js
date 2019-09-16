@@ -35,7 +35,6 @@
     "gulp": "*",
     "gulp-autoprefixer": "*",
     "gulp-concat": "*",
-    "gulp-cssmin": "*",
     "gulp-imagemin": "*",
     "gulp-livereload": "*",
     "gulp-load-plugins": "*",
