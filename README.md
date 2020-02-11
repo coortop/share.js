@@ -146,7 +146,7 @@ socialShare('.social-share-cs', $config);
 requirejs.config({
   paths: {
     jquery: '//cdn.bootcss.com/jquery/2.2.4/jquery.min',
-    share: '//cdn.bootcss.com/social-share.js/1.0.15/js/jquery.share.min'
+    share: '//cdn.bootcss.com/social-share.js/1.0.15/js/jquery.share.min.js'
   },
   shim: {
     share:['jquery']
@@ -164,7 +164,7 @@ requirejs(['jquery','share'],function ($){
 ```js
 requirejs.config({
   paths: {
-    share: '//cdn.bootcss.com/social-share.js/1.0.15/js/social-share.min'
+    share: '//cdn.bootcss.com/social-share.js/1.0.15/js/social-share.min.js'
   },
 })
 
